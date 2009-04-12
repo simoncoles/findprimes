@@ -1,0 +1,10 @@
+--- 
+chdir: /export/home/josh/findprimes
+log: log/thin.log
+socket: /tmp/thin/findprimes/thin.sock
+environment: production
+user: simonc
+group: other
+address: 127.0.0.1
+pid: tmp/pids/thin.pid
+servers: 2
