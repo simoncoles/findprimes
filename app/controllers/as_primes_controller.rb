@@ -1,0 +1,2 @@
+class AsPrimesController < ApplicationController
+end
