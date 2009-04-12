@@ -1,3 +1,16 @@
+# == Schema Information
+# Schema version: 20090412212918
+#
+# Table name: primes
+#
+#  id         :integer         not null, primary key
+#  created_at :datetime
+#  updated_at :datetime
+#  the_number :decimal(, )
+#  started_at :datetime
+#  found_at   :datetime
+#
+
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 # one:
