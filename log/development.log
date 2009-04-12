@@ -1,0 +1,12 @@
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (34.6ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [4;35;1mSQL (7.1ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreatePrimes (20090412205638)
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (120.8ms)[0m   [0;1mCREATE TABLE "primes" ("id" serial primary key, "created_at" timestamp, "updated_at" timestamp, "the_number" decimal) [0m
+  [4;35;1mSQL (1.6ms)[0m   [0mCREATE INDEX "index_primes_on_the_number" ON "primes" ("the_number")[0m
+  [4;36;1mSQL (31.7ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090412205638')[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
