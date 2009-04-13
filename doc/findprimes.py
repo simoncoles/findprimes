@@ -1,3 +1,5 @@
+# This was the original code to find primes, written in Python
+
 def is_this_prime(num):
 	this_is_a_prime = True
 	for i in range(2, num):

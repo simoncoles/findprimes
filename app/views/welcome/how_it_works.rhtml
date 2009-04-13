@@ -1,0 +1,29 @@
+<h2>How it works</h2>
+
+<p>This program was written by Joshua Coles and his Daddy, after they watched the <a href="http://www.bbc.co.uk/programmes/b00jmzdk">Horizon TV Programme on Maths</a>. It looks for Prime numbers in a very simple way, just looking at each number in turn and seeing if it can be divided by any other number. Any Prime Numbers that are found are stored in a database.</p>
+
+<p>Here is the program code which checks if a number is a prime number:</p>
+
+<pre>
+  def self.is_prime(num)
+    # Assume it's prime, unless we can divide it by something
+    is_prime = true
+    # Check all the numbers between 2 and the number (minus one)
+    for i in (2..num - 1)
+      # If we try to divide it, do we get Zero as a remainder?
+      if num % i == 0
+        # The remainder was zero, which means we can divide it - so this isn't a prime
+        is_prime = false
+        # We can stop looking for divisors
+        break
+      end
+    end
+    return is_prime
+  end		
+</pre>
+
+
+<h2>Technical Details</h2>
+<p>Is is written in a Language called <a href="http://www.ruby-lang.org/en/">Ruby</a> and this web application is written in <a href="http://rubyonrails.org">Ruby on Rails</a>. It is hosted on Sun X4200 Server running <a href="http://opensolaris.org">OpenSolaris</a> kindly provided by <a href="http://www.amphora-research.com">Amphora Research Systems</a>.</p>
+
+<p>The full code for this application is available on GitHub <a href="http://github.com/simoncoles/findprimes/">here</a>.

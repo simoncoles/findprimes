@@ -12,8 +12,12 @@
 <h3>Highest Prime So Far</h3>
 <table border="0">
 	<tr>
-		<td>The Prime</td><td><%= @highest_prime %></td>
+		<td>The Largest Prime we've found</td><td><%= @highest_prime %></td>
 	</tr><tr>
 		<td>Time it too to find it</td><td><%= @highest_runtime %></td>
 	</tr>
 </table>
+
+<p>Click <%= link_to "here to see all primes found so far", :controller => :as_primes %>.</p>
+
+<p>Click <%= link_to "here to see more detail on how this works", :action => :how_it_works %>.</p>
