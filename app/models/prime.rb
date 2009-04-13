@@ -68,4 +68,8 @@ class Prime < ActiveRecord::Base
     end
   end
   
+  def self.how_many
+    return self.count
+  end
+  
 end
