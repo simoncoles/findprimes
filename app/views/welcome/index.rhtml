@@ -3,18 +3,18 @@
 <h3>Statistics</h3>
 <table border="0">
 	<tr>
-		<td>Number of Primes found</td><td><%= @number_of_primes %></td>
+		<td>Number of Primes found</td><td><%= @number_of_primes.to_int.to_s.gsub(/(\d)(?=\d{3}+(\.\d*)?$)/, '\1,') %></td>
 	</tr><tr>
-		<td>Total Runtime</td><td><%= @total_runtime %></td>
+		<td>Total Runtime</td><td><%= @total_runtime.to_int.to_s.gsub(/(\d)(?=\d{3}+(\.\d*)?$)/, '\1,') %> Seconds</td>
 	</tr>
 </table>
 
 <h3>Highest Prime So Far</h3>
 <table border="0">
 	<tr>
-		<td>The Largest Prime we've found</td><td><%= @highest_prime %></td>
+		<td>The Largest Prime we've found</td><td><%= @highest_prime.to_int.to_s.gsub(/(\d)(?=\d{3}+(\.\d*)?$)/, '\1,') %></td>
 	</tr><tr>
-		<td>Time it too to find it</td><td><%= @highest_runtime %></td>
+		<td>Time it too to find it</td><td><%= @highest_runtime %> Seconds</td>
 	</tr>
 </table>
 
