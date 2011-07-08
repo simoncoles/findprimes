@@ -1,0 +1,174 @@
+
+
+Processing WelcomeController#index (for 10.10.10.6 at 2011-05-09 22:36:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 53ms (View: 1, DB: 46) | 200 OK [http://joshapps.home/]
+
+
+Processing AsPrimesController#index (for 10.10.10.6 at 2011-05-09 22:36:22) [GET]
+Rendering template within layouts/as_primes
+Rendering list
+Completed in 212ms (View: 81, DB: 127) | 200 OK [http://joshapps.home/as_primes]
+
+
+Processing WelcomeController#index (for 10.10.10.6 at 2011-05-09 22:39:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 64ms (View: 1, DB: 62) | 200 OK [http://joshapps.home/]
+
+
+Processing WelcomeController#index (for 10.10.10.6 at 2011-05-09 22:39:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 59ms (View: 1, DB: 57) | 200 OK [http://joshapps.home/]
+
+
+Processing WelcomeController#index (for 10.10.10.6 at 2011-05-09 22:39:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 58ms (View: 1, DB: 56) | 200 OK [http://joshapps.home/]
+
+
+Processing WelcomeController#index (for 10.10.10.6 at 2011-05-09 22:46:23) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 69ms (View: 1, DB: 67) | 200 OK [http://joshapps.home/]
+
+
+Processing WelcomeController#index (for 10.10.10.6 at 2011-05-10 06:41:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 86ms (View: 1, DB: 84) | 200 OK [http://joshapps.home/]
+
+
+Processing WelcomeController#index (for 10.10.10.6 at 2011-05-10 17:15:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 79ms (View: 1, DB: 76) | 200 OK [http://joshapps.home/]
+
+
+Processing WelcomeController#index (for 10.10.10.6 at 2011-05-10 17:15:06) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 64ms (View: 1, DB: 62) | 200 OK [http://joshapps.home/]
+
+
+Processing WelcomeController#index (for 10.10.10.6 at 2011-05-10 17:15:07) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 69ms (View: 1, DB: 67) | 200 OK [http://joshapps.home/]
+
+
+Processing WelcomeController#index (for 10.10.10.6 at 2011-05-10 17:15:07) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 64ms (View: 1, DB: 62) | 200 OK [http://joshapps.home/]
+
+
+Processing WelcomeController#index (for 10.10.10.6 at 2011-05-10 19:36:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 76ms (View: 1, DB: 74) | 200 OK [http://joshapps.home/]
+
+
+Processing WelcomeController#index (for 10.10.10.6 at 2011-05-11 06:27:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 85ms (View: 1, DB: 83) | 200 OK [http://joshapps.home/]
+
+
+Processing WelcomeController#index (for 10.10.10.6 at 2011-05-11 06:27:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 65ms (View: 1, DB: 64) | 200 OK [http://joshapps.home/]
+
+
+Processing WelcomeController#index (for 10.10.10.6 at 2011-05-11 14:12:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 78ms (View: 1, DB: 76) | 200 OK [http://joshapps.home/]
+
+
+Processing WelcomeController#index (for 10.10.10.65 at 2011-05-11 20:47:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 88ms (View: 1, DB: 85) | 200 OK [http://joshapps.home/]
+
+
+Processing WelcomeController#index (for 10.10.10.65 at 2011-05-11 20:47:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 63ms (View: 1, DB: 62) | 200 OK [http://joshapps.home/]
+
+
+Processing WelcomeController#index (for 10.10.10.65 at 2011-05-11 20:47:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 64ms (View: 1, DB: 62) | 200 OK [http://joshapps.home/]
+
+
+Processing WelcomeController#index (for 10.10.10.65 at 2011-05-11 20:47:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 60ms (View: 1, DB: 59) | 200 OK [http://joshapps.home/]
+
+
+Processing WelcomeController#index (for 10.10.10.59 at 2011-07-08 20:26:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 30620ms (View: 6249, DB: 8793) | 200 OK [http://joshapps/]
+
+
+Processing WelcomeController#index (for 10.10.10.59 at 2011-07-08 20:39:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 2460ms (View: 1, DB: 2387) | 200 OK [http://joshapps/]
+
+
+Processing AsPrimesController#index (for 10.10.10.59 at 2011-07-08 20:39:09) [GET]
+Rendering template within layouts/as_primes
+Rendering list
+Completed in 532ms (View: 337, DB: 158) | 200 OK [http://joshapps/as_primes]
+
+
+Processing WelcomeController#index (for 10.10.10.59 at 2011-07-08 20:39:41) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 40ms (View: 1, DB: 39) | 200 OK [http://joshapps/]
+
+
+Processing WelcomeController#index (for 10.10.10.59 at 2011-07-08 20:39:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 40ms (View: 1, DB: 39) | 200 OK [http://joshapps/]
+
+
+Processing WelcomeController#index (for 10.10.10.59 at 2011-07-08 20:41:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 74ms (View: 1, DB: 73) | 200 OK [http://joshapps/]
+
+
+Processing WelcomeController#index (for 10.10.10.59 at 2011-07-08 20:41:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 71ms (View: 1, DB: 70) | 200 OK [http://joshapps/]
+
+
+Processing WelcomeController#how_it_works (for 10.10.10.59 at 2011-07-08 20:41:25) [GET]
+Rendering template within layouts/application
+Rendering welcome/how_it_works
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://joshapps/welcome/how_it_works]
+
+
+Processing WelcomeController#index (for 10.10.10.59 at 2011-07-08 20:43:31) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 78ms (View: 1, DB: 77) | 200 OK [http://joshapps/]
+
+
+Processing AsPrimesController#index (for 10.10.10.59 at 2011-07-08 20:43:34) [GET]
+Rendering template within layouts/as_primes
+Rendering list
+Completed in 355ms (View: 44, DB: 309) | 200 OK [http://joshapps/as_primes]
